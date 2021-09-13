@@ -1,0 +1,32 @@
+.main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: -105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__section-infornation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    max-width: 323px;
+    height: 310px;
+}
+
+.main__section-info-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.info__like-counter {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    border-radius: 15px;
+}
