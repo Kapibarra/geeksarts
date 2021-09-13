@@ -1,0 +1,15 @@
+.main__cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1430px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 353px;
+    height: 500px;
+    border: 2px solid #fff;
+}

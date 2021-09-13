@@ -8,15 +8,10 @@
 }
 
 .main__section-infornation {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-content: center;
     width: 100%;
     max-width: 323px;
     height: 310px;
+    margin-top: 200px;
 }
 
 .main__section-info-wrapper {
@@ -24,9 +19,30 @@
     flex-direction: row;
 }
 
+.main__section-subtitle {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.4;
+}
+
+.main__section-title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 42px;
+}
+
 .info__like-counter {
     display: flex;
     flex-direction: row;
     margin-right: 5px;
     border-radius: 15px;
+}
+
+.info__bid-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 22px;
+    width: 310px;
+    height: 44px;
 }
